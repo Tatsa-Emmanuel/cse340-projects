@@ -1,0 +1,27 @@
+{
+  "name": "cse340-projects",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Tatsa-Emmanuel/cse340-projects#readme",
+  "bugs": {
+    "url": "https://github.com/Tatsa-Emmanuel/cse340-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatsa-Emmanuel/cse340-projects.git"
+  },
+  "license": "ISC",
+  "author": "Tatsa Emmanuel",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+  "dev": "nodemon",
+  "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
